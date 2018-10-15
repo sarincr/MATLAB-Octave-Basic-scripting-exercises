@@ -1,0 +1,161 @@
+>> diary on
+>> x=[1 2 3 4 5 6 7 8 9]
+x =
+
+   1   2   3   4   5   6   7   8   9
+
+>> x
+x =
+
+   1   2   3   4   5   6   7   8   9
+
+>> y=x+2
+y =
+
+    3    4    5    6    7    8    9   10   11
+
+>> plot(x)
+>> bar(x)
+>> x=[1 2 3; 4 5 6; 7 8 9]
+x =
+
+   1   2   3
+   4   5   6
+   7   8   9
+
+>> x'
+ans =
+
+   1   4   7
+   2   5   8
+   3   6   9
+
+>> y=[ 1 2 3 ;7 8 9; 4 5 6]
+y =
+
+   1   2   3
+   7   8   9
+   4   5   6
+
+>> x*y
+ans =
+
+    27    33    39
+    63    78    93
+    99   123   147
+
+>> x/y
+warning: matrix singular to machine precision
+ans =
+
+   0.83333  -0.16667   0.33333
+   0.33333   0.33333   0.33333
+  -0.16667   0.83333   0.33333
+
+>> x\y
+warning: matrix singular to machine precision
+ans =
+
+  -0.58333  -1.08333  -1.58333
+   0.16667   0.16667   0.16667
+   0.91667   1.41667   1.91667
+
+>> a=10
+a =  10
+>> a*x+y
+ans =
+
+   11   22   33
+   47   58   69
+   74   85   96
+
+>> eig(x)
+ans =
+
+   1.6117e+01
+  -1.1168e+00
+  -1.3037e-15
+
+>> svd(x)
+ans =
+
+   1.6848e+01
+   1.0684e+00
+   4.4184e-16
+
+>> round(x)
+ans =
+
+   1   2   3
+   4   5   6
+   7   8   9
+
+>> round(x/5)
+ans =
+
+   0   0   1
+   1   1   1
+   1   2   2
+
+>> roots(x)
+error: called from
+    print_usage at line 79 column 5
+    roots at line 85 column 5
+error: Invalid call to roots.  Correct usage is:
+
+ -- roots (C)
+
+Additional help for built-in functions and operators is
+available in the online version of the manual.  Use the command
+'doc <topic>' to search the manual index.
+
+Help and information about Octave is also available on the WWW
+at http://www.octave.org and via the help@octave.org
+mailing list.
+>> conv(x,y)
+error: called from
+    conv at line 53 column 5
+error: conv: both arguments A and B must be vectors
+>> sqrt(x)
+ans =
+
+   1.0000   1.4142   1.7321
+   2.0000   2.2361   2.4495
+   2.6458   2.8284   3.0000
+
+>> x.^2
+ans =
+
+    1    4    9
+   16   25   36
+   49   64   81
+
+>> x^2
+ans =
+
+    30    36    42
+    66    81    96
+   102   126   150
+
+>> x*2
+ans =
+
+    2    4    6
+    8   10   12
+   14   16   18
+
+>> x.*2
+ans =
+
+    2    4    6
+    8   10   12
+   14   16   18
+
+>> x*x
+ans =
+
+    30    36    42
+    66    81    96
+   102   126   150
+
+>> diary off
