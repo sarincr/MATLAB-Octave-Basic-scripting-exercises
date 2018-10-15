@@ -97,25 +97,7 @@ ans =
    1   1   1
    1   2   2
 
->> roots(x)
-error: called from
-    print_usage at line 79 column 5
-    roots at line 85 column 5
-error: Invalid call to roots.  Correct usage is:
 
- -- roots (C)
-
-Additional help for built-in functions and operators is
-available in the online version of the manual.  Use the command
-'doc <topic>' to search the manual index.
-
-Help and information about Octave is also available on the WWW
-at http://www.octave.org and via the help@octave.org
-mailing list.
->> conv(x,y)
-error: called from
-    conv at line 53 column 5
-error: conv: both arguments A and B must be vectors
 >> sqrt(x)
 ans =
 
