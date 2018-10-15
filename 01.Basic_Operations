@@ -1,0 +1,104 @@
+
+>> disp("Starting Script")
+Starting Script
+>> disp("Declaring a variable")
+Declaring a variable
+>> x=10
+x =  10
+>> disp(x)
+ 10
+>> disp("Adding two variables")
+Adding two variables
+>> x=10
+x =  10
+>> y=20
+y =  20
+>> z=x+y
+z =  30
+>> disp(z)
+ 30
+>> disp("Trignometric Operations")
+Trignometric Operations
+>> sin(0)
+ans = 0
+>> sin(45)
+ans =  0.85090
+>> sin(90)
+ans =  0.89400
+>> disp("Exponential")
+Exponential
+>> exp(2)
+ans =  7.3891
+>> disp("Strings")
+Strings
+>> str="Hello string"
+str = Hello string
+>> disp(str)
+Hello string
+>> x=10
+x =  10
+>> disp("Testing")
+Testing
+>> isinteger(x)
+ans = 0
+>> isfloat(x)
+ans = 1
+>> x=int(x)
+error: 'int' undefined near line 1 column 3
+>> x=uint32(x)
+x = 10
+>> isinteger(x)
+ans = 1
+>> isfloat(x)
+ans = 0
+>> x= double(x)
+x =  10
+>> isinteger(x)
+ans = 0
+>> x= double(x)
+x =  10
+>> isinteger(x)
+ans = 0
+>> isfloat(x)
+ans = 1
+>> n=30.5
+n =  30.500
+>> int32(n)
+ans = 31
+>> isinteger(n)
+ans = 0
+>> isfloat(n)
+ans = 1
+>> n=int32(n)
+n = 31
+>> isfloat(n)
+ans = 0
+>> isinteger(n)
+ans = 1
+>> isnumeric(x)
+ans = 1
+>> isnumeric(str)
+ans = 0
+>> 10*(20+30)*50
+ans =  25000
+>> 10*(20+30)*50/20
+ans =  1250
+>> disp("Root and Power")
+Root and Power
+>>  8^2
+ans =  64
+>>  8^10
+ans =    1.0737e+09
+>>  8^5
+ans =  32768
+>>  8^(2/3)
+ans =  4.0000
+>>  8^(1/2)
+ans =  2.8284
+>>  16^(1/2)
+ans =  4
+>>  27^(1/3)
+ans =  3
+>>  2^-3
+ans =  0.12500
+

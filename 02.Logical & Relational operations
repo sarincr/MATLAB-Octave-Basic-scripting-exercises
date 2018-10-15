@@ -1,0 +1,66 @@
+>> diary on
+>> 1==2
+ans = 0
+>> 1==1
+ans = 1
+>> 2==2
+ans = 1
+>> 32==55
+ans = 0
+>> 32==32
+ans = 1
+>> 55>32
+ans = 1
+>> 32>55
+ans = 0
+>> 32<55
+ans = 1
+>> 32<=51
+ans = 1
+>> 32<=32
+ans = 1
+>> 32<32
+ans = 0
+>> 32>=32
+ans = 1
+>> 32>=25
+ans = 1
+>> 32>=66
+ans = 0
+>> 1~=2
+ans = 1
+>> 1~=5
+ans = 1
+>> 1&&0
+ans = 0
+>> 1&&1
+ans = 1
+>> 1||2
+ans = 1
+>> 1||5
+ans = 1
+>> xor(1,0)
+ans = 1
+>> and(1,0)
+ans = 0
+>> and(1,1)
+ans = 1
+>> or(1,0)
+ans = 1
+>> x=10
+x =  10
+>> if(x>5)
+disp(5)
+end
+ 5
+>> if(x>5)
+disp("greater than 5")
+else
+disp("less than 5")
+end
+greater than 5
+>> not(1)
+ans = 0
+>> not(0)
+ans = 1
+>> diary off
